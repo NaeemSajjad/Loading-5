@@ -1,0 +1,37 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    margin:0;
+    margin-top:200px ;
+}
+.bg{
+    background: url(img/1.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    width: calc( 100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter:blur(0px) ;
+    background-position:center;
+    /* height:100%; */
+    /* width: 100%; */
+
+
+}
+
+.loading-Text{
+    font-size: 80px;
+    color:black;
+
+}
